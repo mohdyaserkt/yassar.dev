@@ -4,9 +4,7 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
-  SiPrisma,
   SiReact,
-  SiReactquery,
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si';

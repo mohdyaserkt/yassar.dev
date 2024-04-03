@@ -1,16 +1,13 @@
 import clsx from 'clsx';
 import * as React from 'react';
 
-import { trackEvent } from '@/lib/analytics';
 import useLoaded from '@/hooks/useLoaded';
 
 import Accent from '@/components/Accent';
 import CloudinaryImg from '@/components/images/CloudinaryImg';
 import Layout from '@/components/layout/Layout';
-import CustomLink from '@/components/links/CustomLink';
 import Seo from '@/components/Seo';
 import TechStack from '@/components/TechStack';
-import Tooltip from '@/components/Tooltip';
 
 export default function AboutPage() {
   const isLoaded = useLoaded();
